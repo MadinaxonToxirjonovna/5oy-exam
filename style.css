@@ -31,6 +31,10 @@
 
   h3 {
     margin-top: 10%;
+    margin-bottom: 30px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
   }
 
 
@@ -104,3 +108,12 @@
     border: 1px solid rgb(123, 122, 122);
     width: 300px;
   }
+
+  .questionBtn:hover{
+    background: rgb(105, 105, 105);
+    border-radius: 50px;
+}
+
+#questionBtn:active{
+    box-shadow: 30px 30px 10px grey;
+}
